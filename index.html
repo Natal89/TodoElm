@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template • TodoMVC • Elm</title>
+    <link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+    <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+    <!-- CSS overrides - remove if you don't need it -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div id="app"></div>    
+    <script src="node_modules/todomvc-common/base.js"></script>
+    <script src="js/app.js"></script>
+    <script src="appElm.js"></script>
+    <script>
+        var app = Elm.Main.init({
+            node: document.getElementById("app")
+        });
+    </script>
+</body>
+</html>
