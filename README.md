@@ -1,4 +1,4 @@
-# One example of Todo MVC made with Elm (wip)
+# One example of Todo MVC made with Elm
 
 Work in progress. Still need to implement remove and update.
 
